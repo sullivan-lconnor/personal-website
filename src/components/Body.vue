@@ -1,5 +1,4 @@
 <template>
-  <div class="body">
     <div class="content">
       <BlogPost mdPath="src/assets/blog_posts/Post2_reverse_proxies.md" />
       <BlogPost mdPath="src/assets/blog_posts/Post1_how_it_all_works.md" />
@@ -20,6 +19,7 @@ import BlogPost from './BlogPost.vue';
   padding: 20px;
   width: 100%;
   overflow-y: auto;
+  background-repeat: repeat-y;
 }
 
 .content {
