@@ -1,17 +1,18 @@
 <template>
-  <div class="top-banner">
+  <div class="top-banner" :style="{ backgroundImage: `url(${mosaicImage})` }">
     <div class="title">
       <label class="title1">Wow! A functioning webpage!?</label>
       <label class="title2">&nbsp;&nbsp;&nbsp;&nbsp;- Liam Sullivan</label>
     </div>
     <div class="icon-links">
-      <BubbleLink iconSrc="src/assets/gihub_bubble.jpg" linkUrl="https://github.com/sullivan-lconnor" />
-      <BubbleLink iconSrc="src/assets/linkedin_bubble.jpg" linkUrl="https://www.linkedin.com/in/liam-sullivan-22286415a/" />
+      <BubbleLink iconSrc="/src/assets/gihub_bubble.jpg" linkUrl="https://github.com/sullivan-lconnor" />
+      <BubbleLink iconSrc="/src/assets/linkedin_bubble.jpg" linkUrl="https://www.linkedin.com/in/liam-sullivan-22286415a/" />
     </div>
   </div>
 </template>
 
 <script setup>
+import mosaicImage from '/src/assets/mosic.jpg';
 import BubbleLink from './BubbleLink.vue';
 </script>
 
@@ -26,7 +27,7 @@ import BubbleLink from './BubbleLink.vue';
   text-align: left;
   position: relative;
   overflow: hidden;
-  background: url('src/assets/mosic.webp') repeat-x;
+  background-repeat: repeat-x;
   animation: panBackground 200s linear infinite;
 }
 
@@ -35,7 +36,7 @@ import BubbleLink from './BubbleLink.vue';
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-color: rgba(69, 51, 71, 0.867); 
+  background-color: rgba(69, 51, 71, 0.867);
   color: rgb(223, 240, 253);
   height: 100px;
   padding: 0 20px;
