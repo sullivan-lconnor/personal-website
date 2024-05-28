@@ -7,6 +7,7 @@
     <div class="icon-links">
       <BubbleLink iconSrc="/src/assets/gihub_bubble.jpg" linkUrl="https://github.com/sullivan-lconnor" />
       <BubbleLink iconSrc="/src/assets/linkedin_bubble.jpg" linkUrl="https://www.linkedin.com/in/liam-sullivan-22286415a/" />
+      <BubbleLink iconSrc="/src/assets/wunk.jpg" linkUrl="https://en.wikipedia.org/wiki/Axolotl" />
     </div>
   </div>
 </template>
