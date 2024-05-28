@@ -71,9 +71,14 @@ import BubbleLink from './BubbleLink.vue';
 
 .icon-links {
   position: absolute;
-  right: 20px;
+  right: 0px;
   display: flex;
   align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  background-color: rgba(69, 51, 71, 0.867);
+  border-top-left-radius: 10px; /* Round top-right corner */
+  border-bottom-left-radius: 10px; /* Round bottom-right corner */
 }
 
 @media (max-width: 600px) {
