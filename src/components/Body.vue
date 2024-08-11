@@ -1,14 +1,16 @@
 <template>
   <div class="body">
     <div class="content">
-      <BlogPost mdPath="src/assets/blog_posts/Post2_reverse_proxies.md" />
-      <BlogPost mdPath="src/assets/blog_posts/Post1_how_it_all_works.md" />
+      <MarkdownEditor />
+      <MarkdownPost mdPath="src/assets/blog_posts/Post2_reverse_proxies.md" />
+      <MarkdownPost mdPath="src/assets/blog_posts/Post1_how_it_all_works.md" />
     </div>
   </div>
 </template>
 
 <script setup>
-import BlogPost from './BlogPost.vue';
+import MarkdownPost from './MarkDownPost.vue';
+import MarkdownEditor from './MarkDownEditor.vue';
 </script>
 
 <style scoped>
