@@ -61,7 +61,6 @@
     padding: 10px;
     border: 1px solid #ccc;
     overflow-y: auto;
-    text-align: left;
   }
   </style>
   
